@@ -38,7 +38,7 @@ StartLimitIntervalSec=0
 User=root
 Restart=always
 RestartSec=3
-ExecStart=/usr/bin/bevm --chain=testnet --name="0x....a3fd" --pruning=archive --telemetry-url "wss://telemetry.bevm.io/submit 0"
+ExecStart=/usr/bin/bevm --chain=testnet --name="node-ismi" --pruning=archive --telemetry-url "wss://telemetry.bevm.io/submit 0"
 [Install]
 WantedBy=multi-user.target
 EOF
